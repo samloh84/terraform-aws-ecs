@@ -1,0 +1,14 @@
+[
+  {
+    "name": "${service_name}",
+    "image": "${service_image}",
+    "cpu": ${service_cpu},
+    "memory": ${service_memory},
+    "portMappings": [
+      {
+        "containerPort": ${service_port},
+        "hostPort": ${service_port}
+      }
+    ]
+  }
+]
