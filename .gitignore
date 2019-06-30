@@ -2,7 +2,11 @@
 .terraform/
 terraform.tfstate
 terraform.tfstate.backup
-terraform.tfstate.lock.info
 terraform.tfvars
-*secret*
 output_*.log
+.kitchen
+
+terraform.tfstate.d/
+
+*secret*
+terraform.tfstate.lock.info

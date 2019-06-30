@@ -10,7 +10,7 @@ module "vpc-simple" {
 
 module "ecs" {
 
-  source = "../"
+  source = "../../../"
   cluster_name = "ecs-test"
   lb_listener_port = "80"
   lb_security_group_ids = [module.vpc-simple.security_group_web_tier_id]
@@ -26,6 +26,3 @@ module "ecs" {
   service_volume_host_path = ""
   vpc_id = module.vpc-simple.vpc_id
 }
-
-
-

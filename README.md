@@ -1,4 +1,4 @@
-# Terraform AWS Bastion - Centos
+# Terraform AWS ECS Cluster and Service
 
 Terraform module for creating an ECS Cluster and Service on AWS 
 
